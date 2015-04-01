@@ -1,0 +1,4 @@
+{
+	"cmd": ["g++ -c $file ; g++ -o $file_base_name $file_path/$file_base_name.o -lgecodesearch -lgecodeint -lgecodekernel -lgecodesupport -lgecodeflatzinc -lgecodedriver -lgecodegist -lgecodesearch -lgecodeminimodel -lgecodeset -lgecodefloat ; $file_path/$file_base_name"],
+	"shell": true
+}
